@@ -30,7 +30,7 @@ const Search = () => {
 
   return (
     <>
-    <h1>I've rendered {count} times!</h1>
+    {/* <h1>I've rendered {count} times!</h1> */}
       <h2>Movie Search App</h2>
       <form onSubmit={(e) => e.preventDefault()}>
         <input
