@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const  API_ENDPOINT = "https://api.binance.com/api/v3/avgPrice?symbol=BTCUSDT"
+// const  API_ENDPOINT = "https://api.binance.com/api/v3/avgPrice?symbol=BTCUSDT"
+const  API_ENDPOINT = "https://api.github.com/users"
 //const API_ENDPOINT = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_MOVIE_API_KEY}`
 
 export const fetchContracheque = async () => {

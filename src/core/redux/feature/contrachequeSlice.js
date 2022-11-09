@@ -17,8 +17,8 @@ const contrachequeSlice = createSlice({
 
   // Para buscar dados a API precisaremos das ACTIONS e do SAGA
   reducers: {
-    getContracheque(state, action) {
-      console.log("getContracheque", action.payload)
+    getContracheque: (state, action) => {
+       console.log("getContracheque", action.payload)
       state.LIST.resources = action.payload;
       // return null
     },
